@@ -1,0 +1,19 @@
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  font-weight: 400;
+  gap: 90px;
+  padding-top: 50px;
+}
+.number{
+  font-family: ClashDisplay;
+  color: var(--green-color);
+  padding-top: 0;
+  padding-left: 10px;
+}
+.title{
+  font-family: Open_Sans;
+  color: var(--black-color);
+}

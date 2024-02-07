@@ -1,0 +1,51 @@
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; //выравнивание по центру
+}
+.main{
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+.lastName,
+.name{
+  margin: 0;
+  font-weight: 300;
+  font-size: 184px;
+  color: #111;
+}
+.lastName{
+  display: inline-block;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  gap:72px;
+}
+.contentInfo{
+
+}
+.job{
+  display: inline-block;
+  padding-top: 64px;
+  color: var(--green-color);
+  padding-left: 20px;
+  font-size: 48px;
+  font-weight: 400;
+}
+.btn{
+  display: block;
+  margin:0 auto;
+  margin-top: 118px;
+  padding: 30px 60px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--green-color);
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 50px;
+}
+.imageBlock{
+}

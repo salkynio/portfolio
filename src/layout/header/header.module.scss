@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+
+  > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .link {
+    margin: 0 2rem;
+
+    &.active,
+    &:hover{
+        color: var(--green-color);
+      }
+    }
+  }
