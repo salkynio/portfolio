@@ -12,10 +12,17 @@
   }
   .link {
     margin: 0 2rem;
+    color: var(--green-color);
 
     &.active,
     &:hover{
-        color: var(--green-color);
+        color: var(--accent-color)
       }
     }
   }
+.menuItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}

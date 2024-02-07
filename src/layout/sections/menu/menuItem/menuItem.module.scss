@@ -16,4 +16,7 @@
 .title{
   font-family: Open_Sans;
   color: var(--black-color);
+  &:hover{
+    color: var(--accent-color);
+  }
 }

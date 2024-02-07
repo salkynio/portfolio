@@ -3,19 +3,24 @@ import MenuItem from "./menuItem/menuItem";
 const navItems=[
     {
         number:'01',
-        title:'обо мне'
+        title:'обо мне',
+        href: 'about'
+
     },
     {
         number:'02',
-        title:'проекты'
+        title:'проекты',
+        href: 'projects'
     },
     {
         number:'03',
-        title:'навыки'
+        title:'навыки',
+        href: 'skills'
     },
     {
         number:'04',
-        title:'развитие'
+        title:'развитие',
+        href: 'skills'
     },
 ]
 
@@ -24,7 +29,7 @@ const Menu = () => {
             <div className={s.container} id={'about'}>
                 <div className={s.menu}>
                     {navItems.map((item)=>
-                        <MenuItem key={item.number} number={item.number} title={item.title.toUpperCase()}/>)}
+                        <MenuItem  key={item.number} href={item.href} number={item.number} title={item.title.toUpperCase()}/>)}
                 </div>
             </div>
     );

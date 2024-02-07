@@ -6,19 +6,23 @@ import {Link} from "react-scroll";
 
 const navItems = [
     {
+        title:'Главное',
         icon: 'home',
         href: 'home'
     },
     {
+        title:'Обо мне',
         icon: 'person',
         href: 'about'
     },
     {
+        title:'Проекты',
         icon: 'projects',
         href: 'projects'
     },
 
     {
+        title:'Навыки',
         icon: 'skills',
         href: 'skills'
     }]
@@ -34,7 +38,12 @@ const Header = () => {
                             smooth={true}
                             spy={true}
                             to={item.href}>
-                            <Icon iconId={item.icon} height={'24'} width={'24'} viewBox={'0 0 24 24'}/>
+                            <div className={s.menuItem}>
+
+                                <Icon iconId={item.icon} height={'24'} width={'24'} viewBox={'0 0 24 24'}/>
+                                {item.title}
+                            </div>
+
                         </Link>
                     )}
             </nav>

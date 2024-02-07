@@ -44,5 +44,9 @@
   display: flex;
   justify-content: center;
   gap:8px;
-  margin-right: 365px;
+  margin-right: 440px;
+  &:hover{
+    color: var(--accent-color);
+  }
+
 }

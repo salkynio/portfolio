@@ -13,11 +13,11 @@ const softSkills = [
     'Критика ',
 ]
 const interests = [
-    'Изучаю статьи на Medium, NNGroup, VC.ru, UxJournal, Habr',
+    'Изучаю статьи на Medium, VC.ru, Habr',
     'С любопытством читаю почтовые рассылки кейс-стадис от Growth.Design',
-    'Книжные фавориты: ‘Don’t make me think’ Steve Krug, «Ководство» Артемий Лебедев',
+    'Книжные фавориты: ‘Don’t make me think’ Steve Krug, «Дизайн привычных вещей » Дональд Норман',
     'Слежу за tg-каналами дизайнеров',
-    'Смотрю зарубежных дизайнеров на YouTube',
+    'Смотрю дизайнеров на YouTube,фаворит ютуб-канал Алексея Бычкова',
 ]
 const Skills = () => {
     return (
